@@ -6,3 +6,4 @@ Something I learned:
 4. set the padding separately for different parts
 5. set padding then use box-sizing: border-box
 6. browser set 8px margin by default, just set margin:0
+7. put text into a container for padding
