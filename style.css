@@ -1,0 +1,107 @@
+body, button{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+}
+
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    min-width: 250px;
+    flex: 1;
+    position: relative;
+    background: url(./image/rick-monteiro--XUGYfWq9IU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.left-section p{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 0.5rem;
+}
+
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.276);
+    width: 100%;
+}
+
+.img-section img{
+    width: 5rem;
+}
+
+.quote, .form-section,.submit-section{
+    padding: 0 2rem;
+}
+
+.right-section{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border: 2px solid red;
+    background-color: ghostwhite;
+}
+
+.quote{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.form-section{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+}
+
+.form-section p{
+    font-size: 1.2rem;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem;
+}
+
+input{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 200px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+
+.submit-section{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+button{
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: .3rem .6rem;
+    display: block;
+    margin: 0 auto;
+    translate: -50%;
+}
+
+
