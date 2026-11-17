@@ -5,5 +5,5 @@ Something I learned:
 3. use label to include the input
 4. set the padding separately for different parts
 5. set padding then use box-sizing: border-box
-6. browser set 8px margin by default, just set margin:0
+6. browser set 8px margin by default, just set margin:0 (to cancel the scroll bar)
 7. put text into a container for padding
